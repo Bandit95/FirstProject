@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
-    color: #ffffff;
+    color: #000000;
     background-color: #fff;
 }
 
@@ -23,16 +23,31 @@ body {
     top: 0;
     left: 0;
     height: 50px;
+    width: 100%;
     z-index: 10;
 }
 
-.booking {
-    position: absolute;
-    top: 834px;
+.header__inner {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.booking__inner {
+.header__logo {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.nav {
     display: flex;
-    justify-content: space-around;
-    color: black;
+    align-items: center;
+}
+
+.nav__link {
+   margin: 10px 30px;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
 }
