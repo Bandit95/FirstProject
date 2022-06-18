@@ -63,12 +63,18 @@ body {
 }
 
 .btn {
+    color: #1F3347;
     font-size: 16px;
     font-family: inherit;
     font-weight: 600;
     padding: 10px 30px;
     border: 0;
     border-radius: 4px;
-    background-color: #FFC814;
+    background-color: #ffd037;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffc400;
+    transition: all .3s linear;
 }
